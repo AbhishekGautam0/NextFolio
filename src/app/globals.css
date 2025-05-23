@@ -98,6 +98,15 @@ body {
   section {
     @apply py-12 sm:py-16 md:py-20;
   }
+
+  .animate-fadeInText {
+    animation: fadeInTextAnimation 0.5s ease-in-out;
+  }
+
+  @keyframes fadeInTextAnimation {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 }
 
 /* Animation classes */

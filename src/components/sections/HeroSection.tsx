@@ -7,8 +7,21 @@ import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import { AnimatedWrapper } from '@/components/AnimatedWrapper';
 import { SOCIAL_LINKS } from '@/lib/constants';
+import { useState, useEffect } from 'react';
 
 export function HeroSection() {
+   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
+  const titles = ["Shopify Developer", "Associate Software Engineer", "Frontend Developer"];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentTitleIndex((prevIndex) => (prevIndex + 1) % titles.length);
+    }, 5000); // Change title every 3 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, [titles.length]);
+
+
   return (
     <section
       id="home"
@@ -28,7 +41,9 @@ export function HeroSection() {
               Hi, I&apos;m <span className="text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text">Abhishek Gautam</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text">
-              Shopify Developer
+             <span key={titles[currentTitleIndex]} className="animate-fadeInText">
+                {titles[currentTitleIndex]}
+              </span>
             </p>
             <p className="text-sm sm:text-base text-muted-foreground max-w-md mx-auto md:mx-0">
               I&apos;m Abhishek Gautam, a Shopify Developer & Front‑End Developer focused on crafting clean & user‑friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
@@ -57,7 +72,7 @@ export function HeroSection() {
             animationType="slide-left"
             className="flex justify-center order-1 md:order-2 my-0" // Removed specific mb-6 for mobile
           >
-            <div className="relative w-44 h-44 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl border-4 border-primary/30 group">
+            <div className="relative w-56 h-56 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-primary/30 group">
               <Image
                 src="/Profile/profile-pic.png"
                 alt="Abhishek Gautam - Profile Picture"

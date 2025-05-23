@@ -1,10 +1,11 @@
 import type { LucideIcon } from 'lucide-react';
+import { WhatsappIcon } from '@/components/ui/WhatsappIcon';
 import { Linkedin, Mail, MapPin, Phone, GraduationCap, Lightbulb, Code, Store, FileCode, Palette, PenTool, MonitorSmartphone, Briefcase } from 'lucide-react';
 
 export type NavItem = {
   name: string;
   href: string;
-  icon?: LucideIcon;
+  icon?: React.ComponentType<{ className?: string }>;
 };
 
 export const NAV_ITEMS: NavItem[] = [
@@ -93,11 +94,16 @@ export type ContactInfoItem = {
 export const CONTACT_INFO: ContactInfoItem[] = [
   { icon: Phone, label: 'Phone', value: '+91 9589482056', href: 'tel:+919589482056' },
   { icon: Mail, label: 'Email', value: 'abhishekgautam@gmail.com', href: 'mailto:aabhishek.gautamm@gmail.com' },
-  { icon: MapPin, label: 'Address', value: 'Indore,Madhya Pradesh, India' },
+  { icon: MapPin, label: 'Address', value: 'Indore, Madhya Pradesh, India' },
 ];
 
 export const SOCIAL_LINKS: NavItem[] = [
-    { name: 'LinkedIn', href: 'www.linkedin.com/in/abhishek-gautam-dev25', icon: Linkedin },
+    { name: 'LinkedIn', href: 'https://linkedin.com/in/abhishek-gautam-dev25', icon: Linkedin },
+    {
+      name: "WhatsApp",
+      href: "https://wa.me/919589482056",
+      icon: WhatsappIcon, 
+   },  
 ];
 
 export type Skill = {
@@ -194,7 +200,7 @@ export type ExperienceItem = {
   role: string;
   duration: string;
   locationType: string;
-  description: string;
+  description: string[];
   icon: LucideIcon;
 };
 
@@ -204,7 +210,15 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     role: 'Associate Software Engineer',
     duration: 'Nov 2023 - Current',
     locationType: 'On Site',
-    description: "Led the design section of Shopify development projects, collaborating closely with clients to understand their vision and branding requirements; utilized expert knowledge of HTML, CSS, JavaScript, and Shopify Liquid to customize themes and templates, ensuring seamless integration of design elements and functionality; implemented responsive design principles to optimize user experience across desktop, tablet, and mobile devices, resulting in increased customer engagement and conversion rates; conducted thorough testing and debugging to identify and resolve any issues, ensuring smooth operation and functionality of Shopify stores.",
+    description: [
+  "Led the design section of Shopify development projects, collaborating closely with clients to understand their vision.",
+  "Translated Figma designs into pixel-perfect, responsive Shopify storefronts using HTML, SCSS, JavaScript, and Liquid.",
+  "Utilized expert knowledge of HTML, CSS, JavaScript, and Shopify Liquid to customize themes and templates.",
+  "Integrated third-party apps and APIs to extend store functionality, including product upsells, cart drawers, and custom pop-ups.",
+  "Ensured cross-browser and cross-device compatibility by implementing mobile-first design and thorough QA testing.",
+  "Improved performance and load times by optimizing Liquid templates, reducing unnecessary scripts, and lazy loading assets."
+],      
+
     icon: Briefcase,
   }
 ];
