@@ -22,7 +22,7 @@ export function AboutContent() {
           <AnimatedWrapper animationType="slide-right" className="md:col-span-2">
             <div className="relative w-full max-w-xs sm:max-w-sm mx-auto aspect-square rounded-lg overflow-hidden shadow-2xl border-4 border-primary/20 group">
               <Image
-                src="/860020240606021334_0.png"
+                src="/Profile/profile-pic.png"
                 alt="Abhishek Gautam at work"
                 layout="fill"
                 objectFit="cover"
@@ -65,7 +65,7 @@ export function AboutContent() {
                     <Badge variant="secondary" className="mb-2 font-medium text-xs sm:text-sm">{skill.level}</Badge>
                   )}
                   <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
-                    Expertise in {skill.name} for building modern web solutions.
+                    {skill.desc} 
                   </p>
                 </CardContent>
               </Card>

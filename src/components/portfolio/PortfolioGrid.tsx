@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 // IMPORTANT: Replace this with your actual Google Sheet URL
-const ALL_PROJECTS_GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/your_sheet_id/edit?usp=sharing";
+const ALL_PROJECTS_GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1HYMWXZLo3kNSGpLIPr5cQicrQ807uk7DZ3UbDOdboRw/edit?usp=sharing";
 
 export function PortfolioGrid() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);

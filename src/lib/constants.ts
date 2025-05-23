@@ -28,58 +28,58 @@ export type Project = {
 
 export const PROJECTS_DATA: Project[] = [
   {
-    id: 'portfolio',
-    name: 'Personal Portfolio',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    description: 'A dynamic and responsive personal portfolio website designed to showcase my skills, projects, and professional journey. Built with a focus on user experience and modern design principles.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'portfolio website',
+    id: 'growplex',
+    name: 'GrowPlex',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: 'I designed and developed this high-conversion Shopify store for a premium hair serum brand. The layout is clean and modern, built from Figma with pixel-perfect precision. It features smooth animations, fast load times, and a user-focused design to highlight product benefits and boost customer trust. The result is a professional, mobile-optimized experience that supports both education and sales.',
+    liveLink: 'https://growplex.co/',
+    image: '/portfolio-images/glowplex.png',
+    imageHint: 'Growplex website',
   },
   {
-    id: 'ecommerce',
-    name: 'E-Commerce Platform',
-    tech: ['React', 'Node.js', 'Express'],
-    description: 'A full-featured e-commerce website with functionalities like product browsing, cart management, user authentication, and order processing. Designed for scalability and a seamless shopping experience.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'online store',
+    id: 'oluzuswim',
+    name: 'OluzuSwim',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: 'I developed this pixel-perfect Shopify store based on Figma designs, ensuring a smooth, user-friendly experience across all devices. The layout is fully responsive, with optimized performance and intuitive navigation to enhance customer engagement and drive conversions.',
+    liveLink: 'https://oluzuswim.com/',
+    image: '/portfolio-images/Oluzu-Swim.png',
+    imageHint: 'OluzuSwim store',
   },
   {
-    id: 'weather-app',
-    name: 'Weather Forecast App',
-    tech: ['JavaScript', 'API Integration', 'GeoLocation'],
-    description: 'A sleek weather application that provides real-time weather updates and forecasts for any location. Features include current conditions, hourly/daily forecasts, and a user-friendly interface.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'weather application',
+    id: 'rewagrowth',
+    name: 'REVA-GROWTH',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: 'I developed this pixel-perfect, responsive Shopify store for a premium hair care brand. Built from Figma designs, the site emphasizes a clean, modern aesthetic and intuitive navigation. Leveraging natural ingredients like aloe vera, RevaGrowth offers products that promote healthy hair growth and vitality. The user-friendly design ensures a seamless shopping experience across all devices, enhancing customer engagement and driving conversions.',
+    liveLink: 'https://revagrowth.com/',
+    image: '/portfolio-images/REVA-GROWTH.png',
+    imageHint: 'REVA-GROWTH',
   },
    {
-    id: 'music-player',
-    name: 'Music Player',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    description: 'An interactive web-based music player with standard controls, playlist management, and audio visualization. Built to offer an enjoyable listening experience.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'music interface',
+    id: 'mindright',
+    name: 'Mindright',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: ' I designed and developed this pixel-perfect Shopify store for a nootropic-infused superfood brand. Built from Figma designs, the site emphasizes a clean, modern aesthetic and intuitive navigation. It showcases products like protein bars and supplements that support mood, energy, and focus, providing users with a seamless and engaging shopping experience.',
+    liveLink: 'https://getmindright.com/',
+    image: '/portfolio-images/Mindright.png',
+    imageHint: 'Mindright Store',
   },
   {
-    id: 'analog-clock',
-    name: 'Analog Clock',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    description: 'A classic analog clock implemented with pure HTML, CSS, and JavaScript, showcasing intricate styling and dynamic time updates.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'clock design',
+    id: 'nazranaanj',
+    name: 'Nazranaanj',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: ' I developed this pixel-perfect, responsive Shopify store for a premier South Asian bridal boutique based in New Jersey. Built from Figma designs, the site emphasizes a clean, modern aesthetic and intuitive navigation. It showcases a diverse collection of bridal and groom attire, including lehengas, sherwanis, and custom ensembles, providing users with a seamless and engaging shopping experience.',
+    liveLink: 'https://nazranaanj.com/',
+    image: '/portfolio-images/nazranaj.png',
+    imageHint: 'Nazranaanj Store',
   },
   {
-    id: 'tic-tac-toe',
-    name: 'Tic-Tac-Toe Game',
-    tech: ['JavaScript', 'Game Logic'],
-    description: 'A fun and interactive Tic-Tac-Toe game with an intelligent AI opponent or two-player mode. A great example of JavaScript DOM manipulation and game logic.',
-    liveLink: '#',
-    image: 'https://placehold.co/600x400.png',
-    imageHint: 'game board',
+    id: 'rockher',
+    name: 'RockHer',
+    tech: ['HTML', 'CSS', 'Liquid', 'JavaScript'],
+    description: ' I developed this pixel-perfect, responsive Shopify store for a luxury jewelry brand specializing in custom engagement rings. Built from Figma designs, the site emphasizes a clean, modern aesthetic and intuitive navigation. It showcases ethically sourced diamonds and handcrafted rings, providing users with a seamless and engaging shopping experience.',
+    liveLink: 'https://www.rockher.com/',
+    image: '/portfolio-images/jwellery.png',
+    imageHint: 'RockHer Store',
   },
 ];
 
@@ -91,31 +91,77 @@ export type ContactInfoItem = {
 };
 
 export const CONTACT_INFO: ContactInfoItem[] = [
-  { icon: Phone, label: 'Phone', value: '+91 7895708219', href: 'tel:+917895708219' },
-  { icon: Mail, label: 'Email', value: 'abhishekgautam9112@gmail.com', href: 'mailto:abhishekgautam9112@gmail.com' },
-  { icon: MapPin, label: 'Address', value: 'Haridwar, Uttarakhand, India' },
+  { icon: Phone, label: 'Phone', value: '+91 9589482056', href: 'tel:+919589482056' },
+  { icon: Mail, label: 'Email', value: 'abhishekgautam@gmail.com', href: 'mailto:aabhishek.gautamm@gmail.com' },
+  { icon: MapPin, label: 'Address', value: 'Indore,Madhya Pradesh, India' },
 ];
 
 export const SOCIAL_LINKS: NavItem[] = [
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/abhishek-gautam-214459227', icon: Linkedin },
+    { name: 'LinkedIn', href: 'www.linkedin.com/in/abhishek-gautam-dev25', icon: Linkedin },
 ];
 
 export type Skill = {
   name: string;
   icon: LucideIcon;
   level?: string;
+  desc?: string;
 };
 
 export const SKILLS_DATA: Skill[] = [
-  { name: 'Shopify Development', icon: Store, level: 'Expert' },
-  { name: 'Liquid Programming', icon: FileCode, level: 'Expert' },
-  { name: 'Custom Theme Development', icon: Palette, level: 'Advanced' },
-  { name: 'Figma to Shopify', icon: PenTool, level: 'Advanced' },
-  { name: 'HTML5', icon: Code, level: 'Advanced' },
-  { name: 'CSS3 & TailwindCSS', icon: Code, level: 'Advanced' },
-  { name: 'JavaScript (ES6+)', icon: Code, level: 'Advanced' },
-  { name: 'Responsive Design', icon: MonitorSmartphone, level: 'Advanced' },
-  { name: 'eCommerce Strategy', icon: Lightbulb, level: 'Intermediate' },
+  {
+    name: 'Shopify Development',
+    icon: Store,
+    level: 'Expert',
+    desc: 'Expert in building, customizing, and scaling Shopify storefronts tailored to unique client needs.'
+  },
+  {
+    name: 'Theme Customization',
+    icon: Palette,
+    level: 'Advanced',
+    desc: 'Specialized in modifying and enhancing Shopify themes for personalized branding and user experience.'
+  },
+  {
+    name: 'Liquid Programming',
+    icon: FileCode,
+    level: 'Expert',
+    desc: 'Proficient in Shopify’s Liquid template language to create dynamic and flexible store functionality.'
+  },
+  {
+    name: 'HTML5',
+    icon: Code,
+    level: 'Advanced',
+    desc: 'Skilled in crafting semantic and accessible HTML5 structures for modern web applications.'
+  },
+  {
+    name: 'CSS3',
+    icon: Code,
+    level: 'Advanced',
+    desc: 'Advanced styling techniques using CSS3 for responsive, aesthetic, and pixel-perfect UI designs.'
+  },
+  {
+    name: 'JavaScript (ES6+)',
+    icon: Code,
+    level: 'Advanced',
+    desc: 'Strong grasp of modern JavaScript to add interactivity and enhance frontend performance.'
+  },
+  {
+    name: 'Figma to Shopify',
+    icon: PenTool,
+    level: 'Advanced',
+    desc: 'Experienced in converting Figma designs into functional, high-fidelity Shopify storefronts.'
+  },
+  {
+    name: 'Responsive Design',
+    icon: MonitorSmartphone,
+    level: 'Advanced',
+    desc: 'Adept at implementing mobile-first and fully responsive layouts across all device sizes.'
+  },
+  {
+    name: 'eCommerce Strategy',
+    icon: Lightbulb,
+    level: 'Intermediate',
+    desc: 'Understands user behavior and sales funnels to boost conversion rates and store performance.'
+  }
 ];
 
 export type EducationItem = {
@@ -128,26 +174,19 @@ export type EducationItem = {
 
 export const EDUCATION_DATA: EducationItem[] = [
   {
-    institution: 'Phonics Group of Institutions, Roorkee',
-    degree: 'Bachelor of Technology - BTech, Computer Science',
-    duration: '2020 - 2024',
-    grade: '8.2 CGPA',
+    institution: 'malwa institute of technology, Indore',
+    degree: 'Bachelor of Technology - BTech,  Electronics & Communication',
+    duration: '2019 - 2023',
+    grade: '7.79 CGPA',
     icon: GraduationCap,
   },
   {
-    institution: 'Jwalapur Inter College, Jwalapur Haridwar',
-    degree: 'Intermediate, PCM',
-    duration: '2018 - 2020',
-    grade: '78%',
+    institution: 'Krishna Vidhya Niketan H.S. school, Indore',
+    degree: 'PCM',
+    duration: '2018 - 2019',
+    grade: '59%',
     icon: GraduationCap,
-  },
-  {
-    institution: 'Jwalapur Inter College, Jwalapur Haridwar',
-    degree: 'High School',
-    duration: '2016 - 2018',
-    grade: '75%',
-    icon: GraduationCap,
-  },
+  }
 ];
 
 export type ExperienceItem = {
@@ -161,21 +200,13 @@ export type ExperienceItem = {
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    company: 'Bharat Intern',
-    role: 'Web Development Intern',
-    duration: 'Aug 2023 - Sep 2023 (1 month)',
-    locationType: 'Remote',
-    description: "During my internship at Bharat Intern, I gained hands-on experience in web development, working on various projects that helped hone my skills in front-end and back-end technologies. I contributed to the development of responsive and user-friendly web applications, collaborated with team members, and learned about industry best practices.",
+    company: 'TechInfini Solutions',
+    role: 'Associate Software Engineer',
+    duration: 'Nov 2023 - Current',
+    locationType: 'On Site',
+    description: "Led the design section of Shopify development projects, collaborating closely with clients to understand their vision and branding requirements; utilized expert knowledge of HTML, CSS, JavaScript, and Shopify Liquid to customize themes and templates, ensuring seamless integration of design elements and functionality; implemented responsive design principles to optimize user experience across desktop, tablet, and mobile devices, resulting in increased customer engagement and conversion rates; conducted thorough testing and debugging to identify and resolve any issues, ensuring smooth operation and functionality of Shopify stores.",
     icon: Briefcase,
-  },
-  {
-    company: 'Saleable Technologies',
-    role: 'Web Development Intern',
-    duration: 'Dec 2022 - Feb 2023 (3 months)',
-    locationType: 'Mohali, Punjab, India · On-site',
-    description: "At Saleable Technology, I worked as a Web Development Intern, focusing on building and maintaining web applications. This role allowed me to deepen my understanding of the MERN stack, improve my problem-solving abilities, and gain practical experience in a professional setting. I was involved in the full software development lifecycle, from requirement gathering to deployment.",
-    icon: Briefcase,
-  },
+  }
 ];
 
 export const SITE_TITLE = "Abhishek Gautam | Shopify Developer";

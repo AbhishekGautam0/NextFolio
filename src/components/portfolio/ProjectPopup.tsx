@@ -32,6 +32,7 @@ export function ProjectPopup({ project, isOpen, onClose }: ProjectPopupProps) {
             layout="fill"
             objectFit="cover"
             data-ai-hint={project.imageHint}
+            className='object-top'
           />
         </div>
         <DialogHeader className="p-6 pb-2">

@@ -31,7 +31,7 @@ export function HeroSection() {
               Shopify Developer
             </p>
             <p className="text-sm sm:text-base text-muted-foreground max-w-md mx-auto md:mx-0">
-              I&apos;m a passionate and results-oriented Shopify developer with a strong foundation in front-end technologies. I thrive on creating intuitive, engaging, and high-performing e-commerce experiences.
+              I&apos;m Abhishek Gautam, a Shopify Developer & Front‑End Developer focused on crafting clean & user‑friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-center md:justify-start pt-2">
               <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -59,7 +59,7 @@ export function HeroSection() {
           >
             <div className="relative w-44 h-44 sm:w-48 sm:h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden shadow-2xl border-4 border-primary/30 group">
               <Image
-                src="/860020240606021334_0.png"
+                src="/Profile/profile-pic.png"
                 alt="Abhishek Gautam - Profile Picture"
                 layout="fill"
                 objectFit="cover"

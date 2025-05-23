@@ -31,9 +31,8 @@ export function Navbar() {
     )}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={() => setIsOpen(false)}>
-           <CodeXml className="h-8 w-8 text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text" />
           <span className="text-2xl font-bold tracking-tight text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text">
-            Scrollfolio
+            Abhishek G.
           </span>
         </Link>
 

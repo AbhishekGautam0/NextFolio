@@ -22,7 +22,7 @@ export function PortfolioCard({ project, onViewProject }: PortfolioCardProps) {
             layout="fill"
             objectFit="cover"
             data-ai-hint={project.imageHint}
-            className="transition-transform duration-500 group-hover:scale-105"
+            className="object-top transition-transform duration-500 group-hover:scale-105"
           />
         </div>
       </CardHeader>
