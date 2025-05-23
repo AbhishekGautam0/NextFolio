@@ -72,7 +72,7 @@ export function Navbar() {
                 <Link href="/" className="flex items-center gap-2 mb-6" onClick={() => setIsOpen(false)}>
                   <CodeXml className="h-8 w-8 text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text" />
                   <span className="text-xl font-bold text-primary dark:bg-gradient-to-r dark:from-purple-500 dark:via-pink-500 dark:to-orange-500 dark:text-transparent dark:bg-clip-text">
-                    Scrollfolio
+                    Abhishek G.
                   </span>
                 </Link>
                 {NAV_ITEMS.map((item) => (
