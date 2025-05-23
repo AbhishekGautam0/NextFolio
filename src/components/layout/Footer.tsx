@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 export function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-secondary text-secondary-foreground py-12">
+    <footer className="bg-secondary text-secondary-foreground py-4 xl:py-12 md:py-4">
       <div className="container mx-auto px-4 md:px-6 text-center">
         <div className="flex justify-center space-x-4 mb-6">
           {SOCIAL_LINKS.map((item) => (

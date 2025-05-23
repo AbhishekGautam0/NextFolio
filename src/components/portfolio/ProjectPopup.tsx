@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -24,7 +25,7 @@ export function ProjectPopup({ project, isOpen, onClose }: ProjectPopupProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-2xl p-0 overflow-hidden shadow-2xl">
+      <DialogContent className="sm:max-w-2xl p-0 shadow-2xl overflow-y-auto max-h-[85vh]">
         <div className="relative w-full aspect-video">
            <Image
             src={project.image}
@@ -36,9 +37,9 @@ export function ProjectPopup({ project, isOpen, onClose }: ProjectPopupProps) {
           />
         </div>
         <DialogHeader className="p-6 pb-2">
-          <DialogTitle className="text-3xl font-bold text-primary">{project.name}</DialogTitle>
+          <DialogTitle className="text-3xl font-bold text-primary dark:text-primary">{project.name}</DialogTitle>
         </DialogHeader>
-        <div className="px-6 space-y-4 max-h-[50vh] overflow-y-auto">
+        <div className="px-6 space-y-4"> {/* Removed max-h and overflow-y-auto from here */}
           <div className="flex flex-wrap gap-2 my-2">
             {project.tech.map((techItem) => (
               <Badge key={techItem} variant="outline" className="flex items-center gap-1">
@@ -50,7 +51,7 @@ export function ProjectPopup({ project, isOpen, onClose }: ProjectPopupProps) {
             {project.description}
           </DialogDescription>
         </div>
-        <DialogFooter className="p-6 border-t bg-secondary/50">
+        <DialogFooter className="p-6 border-t bg-secondary/50 sticky bottom-0"> {/* Added sticky bottom-0 to keep footer visible during scroll if desired, can be removed if not */}
           <Button variant="outline" onClick={onClose}>Close</Button>
           <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground">
             <Link href={project.liveLink} target="_blank" rel="noopener noreferrer">
