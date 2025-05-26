@@ -224,5 +224,5 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 ];
 
 export const SITE_TITLE = "Abhishek Gautam | Shopify Developer";
-export const SITE_DESCRIPTION = "Personal portfolio of Abhishek Gautam, a passionate Shopify developer creating high-performing custom themes and e-commerce solutions.";
+export const SITE_DESCRIPTION = "Personal portfolio of Abhishek Gautam, a passionate Shopify developer Setup high-performing custom Stores and e-commerce solutions.";
 
