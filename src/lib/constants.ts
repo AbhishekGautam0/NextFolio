@@ -180,14 +180,14 @@ export type EducationItem = {
 
 export const EDUCATION_DATA: EducationItem[] = [
   {
-    institution: 'malwa institute of technology, Indore',
+    institution: 'Malwa institute of technology, Indore',
     degree: 'Bachelor of Technology - BTech,  Electronics & Communication',
     duration: '2019 - 2023',
     grade: '7.79 CGPA',
     icon: GraduationCap,
   },
   {
-    institution: 'Krishna Vidhya Niketan H.S. school, Indore',
+    institution: 'Krishna vidhya niketan H.S. school, Indore',
     degree: 'PCM',
     duration: '2018 - 2019',
     grade: '59%',
