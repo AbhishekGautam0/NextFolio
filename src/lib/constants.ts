@@ -1,4 +1,8 @@
 import type { LucideIcon } from 'lucide-react';
+import {
+  GaugeCircle,
+  Code2,
+} from 'lucide-react';
 import { WhatsappIcon } from '@/components/ui/WhatsappIcon';
 import { Linkedin, Mail, MapPin, Phone, GraduationCap, Lightbulb, Code, Store, FileCode, Palette, PenTool, MonitorSmartphone, Briefcase } from 'lucide-react';
 
