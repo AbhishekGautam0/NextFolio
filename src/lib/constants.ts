@@ -167,6 +167,18 @@ export const SKILLS_DATA: Skill[] = [
     icon: Lightbulb,
     level: 'Intermediate',
     desc: 'Understands user behavior and sales funnels to boost conversion rates and store performance.'
+  },
+  {
+    name: 'Speed Optimization',
+    icon: GaugeCircle, // You can choose another icon if preferred
+    level: 'Advanced',
+    desc: 'Skilled in improving store performance by optimizing Liquid templates, reducing render-blocking resources, and leveraging caching strategies.'
+  },
+  {
+    name: 'Custom Feature Development',
+    icon: Code2, // Replace with your preferred icon
+    level: 'Advanced',
+    desc: 'Experienced in replacing third-party apps with custom-coded solutions for smoother performance and greater flexibility in feature customization.'
   }
 ];
 
@@ -219,6 +231,23 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   "Improved performance and load times by optimizing Liquid templates, reducing unnecessary scripts, and lazy loading assets."
 ],      
 
+    icon: Briefcase,
+  },
+  {
+    company: 'parkhya solutions',
+    role: 'Shopify Developer',
+    duration: 'Aug 2025 - Present',
+    locationType: 'On Site', // or 'On Site' if applicable
+    description: [
+      "Replaced third-party apps with custom-coded solutions wherever possible, resulting in smoother performance and more flexible feature customization.",
+      "Developed custom Shopify apps and reusable components to accelerate development cycles.",
+      "Spearheaded speed optimization initiatives, significantly improving store load times and performance scores.",
+      "Refactored legacy Liquid code and streamlined theme architecture for better maintainability and scalability.",
+      "Implemented advanced caching strategies and minimized render-blocking resources to enhance user experience.",
+      "Collaborated with marketing and SEO teams to align technical enhancements with conversion goals.",
+      "Strengthened skills in analytics integration, A/B testing, and conversion rate optimization (CRO).",
+      "Gained expertise in performance auditing tools like Lighthouse and GTmetrix to guide optimization efforts."
+    ],
     icon: Briefcase,
   }
 ];
