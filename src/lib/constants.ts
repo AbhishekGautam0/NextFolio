@@ -224,7 +224,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     company: 'TechInfini Solutions',
     role: 'Associate Software Engineer',
-    duration: 'Nov 2023 - Current',
+    duration: 'Nov 2023 - Aug 2025',
     locationType: 'On Site',
     description: [
   "Led the design section of Shopify development projects, collaborating closely with clients to understand their vision.",
