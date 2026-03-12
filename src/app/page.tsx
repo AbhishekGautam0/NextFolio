@@ -1,7 +1,7 @@
 
 import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutContent } from '@/components/sections/AboutContent';
-import { EducationSection } from '@/components/sections/EducationSection';
+// import { EducationSection } from '@/components/sections/EducationSection';
 import { ExperienceSection } from '@/components/sections/ExperienceSection';
 import { PortfolioGrid } from '@/components/portfolio/PortfolioGrid';
 import { ContactInfo } from '@/components/sections/ContactInfo';
@@ -29,7 +29,7 @@ export default function HomePage() {
       <div className="bg-background">
         <EducationSection />
       </div>
-*/}
+      */}
       
       {/* Experience Section - light mode: subtle gradient, dark mode: as before */}
       <div className="bg-gradient-to-br from-secondary via-background to-background dark:from-secondary/30 dark:via-background dark:to-background">
