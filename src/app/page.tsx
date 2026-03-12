@@ -25,10 +25,11 @@ export default function HomePage() {
         <AboutContent />
       </div>
 
-      {/* Education Section - light mode: plain bg, dark mode: as before */}
+      {/* Education Section - light mode: plain bg, dark mode: as before 
       <div className="bg-background">
         <EducationSection />
       </div>
+*/}
       
       {/* Experience Section - light mode: subtle gradient, dark mode: as before */}
       <div className="bg-gradient-to-br from-secondary via-background to-background dark:from-secondary/30 dark:via-background dark:to-background">
