@@ -186,30 +186,30 @@ export const SKILLS_DATA: Skill[] = [
   }
 ];
 
-export type EducationItem = {
-  institution: string;
-  degree: string;
-  duration: string;
-  grade: string;
-  icon: LucideIcon;
-};
+// export type EducationItem = {
+//   institution: string;
+//   degree: string;
+//   duration: string;
+//   grade: string;
+//   icon: LucideIcon;
+// };
 
-export const EDUCATION_DATA: EducationItem[] = [
-  {
-    institution: 'Malwa institute of technology, Indore',
-    degree: 'Bachelor of Technology - BTech,  Electronics & Communication',
-    duration: '2019 - 2023',
-    grade: '7.79 CGPA',
-    icon: GraduationCap,
-  },
-  {
-    institution: 'Krishna vidhya niketan H.S. school, Indore',
-    degree: 'PCM',
-    duration: '2018 - 2019',
-    grade: '59%',
-    icon: GraduationCap,
-  }
-];
+// export const EDUCATION_DATA: EducationItem[] = [
+//   {
+//     institution: 'Malwa institute of technology, Indore',
+//     degree: 'Bachelor of Technology - BTech,  Electronics & Communication',
+//     duration: '2019 - 2023',
+//     grade: '7.79 CGPA',
+//     icon: GraduationCap,
+//   },
+//   {
+//     institution: 'Krishna vidhya niketan H.S. school, Indore',
+//     degree: 'PCM',
+//     duration: '2018 - 2019',
+//     grade: '59%',
+//     icon: GraduationCap,
+//   }
+// ];
 
 export type ExperienceItem = {
   company: string;
